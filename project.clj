@@ -1,6 +1,6 @@
 (defproject omegasq "0.1.0-SNAPSHOT"
   :description "FIXME: write this!"
-  :url "http://example.com/FIXME"
+  :url "https://github.com/sheganinans?tab=repositories"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [ring "1.1.8"]
                  [jayq "2.3.0"]

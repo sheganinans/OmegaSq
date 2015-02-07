@@ -7,3 +7,7 @@ To put another way, the rotational distance of the current joint is calculated b
 Written in Clojurescript, use "lein run" to give it a try.
 
 Comments or Questions? sheganinans@gmail.com
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sheganinans/omegasq/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

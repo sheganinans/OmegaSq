@@ -7,11 +7,16 @@
     <meta name="description" content="Omegasq : OmegaSq is a visual toy in which 3 trefoil knots have additive rotational vectors applied in a sequential self-dependent fasion, creating a pleasing animation that is possibly non-repeating, but more likely finite and very large.">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/page.css" />
 
     <title>Omegasq</title>
   </head>
 
   <body>
+    <script src="javascripts/three.js"></script>
+    <script src="javascripts/THREEx.WindowResize.js"></script>
+    <script src="javascripts/threex.dragpancontrols.js"></script>
+    <script src="javascripts/jquery-1.9.1.min.js"></script>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -31,8 +36,14 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Here it is:</h3>
-          <p><a href="/OmegaSq/app.html">Welcome to OmegaSq.</a></p>
+        <header class="appHeader"></header>
+        <div class="appVis">
+        <div id="textContainer">
+        </div>
+        <div id="visContainer">
+        </div>
+        </div>
+        <script src="js/cljs.js"></script>
       </section>
     </div>
 

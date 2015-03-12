@@ -19330,7 +19330,6 @@ dommy.core.fire_BANG_ = function() {
 }();
 var omegasq = {};
 clojure.browser.repl.connect.call(null, "http://localhost:8090/repl");
-dommy.core.append_BANG_.call(null, document.getElementById("textContainer"), "lololol");
 omegasq.generate_geometries = function() {
   return null
 };

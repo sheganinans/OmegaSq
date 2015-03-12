@@ -3,7 +3,6 @@ goog.require('cljs.core');
 goog.require('clojure.browser.repl');
 goog.require('dommy.core');
 clojure.browser.repl.connect.call(null,"http://localhost:8090/repl");
-dommy.core.append_BANG_.call(null,document.getElementById("textContainer"),"lololol");
 omegasq.generate_geometries = (function generate_geometries(defaults){
 return null;
 });

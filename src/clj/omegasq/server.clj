@@ -12,7 +12,7 @@
          "<html>"
         "<head>"
         "<link rel=\"stylesheet\" href=\"css/page.css\" />"
-        "<iframe width=\"20\" height=\"20\" src=\"https://www.youtube.com/embed/nU_U1NH5QBs?autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>"
+        "<iframe width=\"20\" height=\"20\" src=\"https://www.youtube.com/embed/nU_U1NH5QBs?autoplay=1&start=1008\" frameborder=\"0\" allowfullscreen></iframe>"
         "</head>"
         "<body>"
         "<script src=\"js/three.js\"></script>"

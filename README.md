@@ -1,6 +1,6 @@
 OmegaSq stands for [omega squared](https://en.wikipedia.org/wiki/Surreal_number).
 
-Check it out here: http://sheganinans.github.io/OmegaSq/
+Check it out here: http://sheganinans.github.io/OmegaSq/ (Best viewed in Chrome)
 
 OmegaSq is a visual toy in which 3 trefoil knots have additive rotational vectors applied in a sequential self-dependent fashion, creating a pleasing animation that is possibly non-repeating, but more likely finite and very large.
 

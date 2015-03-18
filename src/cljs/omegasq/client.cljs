@@ -1,9 +1,9 @@
 (ns omegasq
-  (:use-macros [dommy.macros :only [sel sel1]])
+;  (:use-macros [dommy.macros :only [sel sel1]])
   (:require [dommy.core :as d]
             [clojure.browser.repl :as repl]))
 
-(repl/connect "http://localhost:8090/repl")
+; (repl/connect "http://localhost:8090/repl")
 
 (defn generate-geometries [defaults])
 

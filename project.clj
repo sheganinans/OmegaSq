@@ -17,7 +17,7 @@
       :main {
         :source-paths ["src/cljs"]
         :compiler {:output-to "resources/public/js/cljs.js"
-                   :optimizations :simple
+                   :optimizations :advanced
                   ; :externs ["resources/public/js/three.js"]
                    :pretty-print true}
         :jar true}}}

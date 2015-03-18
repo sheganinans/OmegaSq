@@ -5,8 +5,6 @@
 
 (repl/connect "http://localhost:8090/repl")
 
-;(d/append! (sel1 :#textContainer) "lololol")
-
 (defn generate-geometries [defaults])
 
 (defn generate-meshes [defaults geometries])

@@ -3,7 +3,6 @@ goog.require('cljs.core');
 goog.require('clojure.browser.repl');
 goog.require('dommy.core');
 clojure.browser.repl.connect.call(null,"http://localhost:8090/repl");
-dommy.core.append_BANG_.call(null,document.getElementById("textContainer"),"lololol");
 omegasq.generate_geometries = (function generate_geometries(defaults){
 return null;
 });
@@ -77,13 +76,13 @@ return event.preventDefault();
 omegasq.add_to_scene = (function add_to_scene(mesh){
 return omegasq.scene.add(mesh);
 });
-var objs_5168 = omegasq.objects;
+var objs_3208 = omegasq.objects;
 while(true){
-if(!(cljs.core.empty_QMARK_.call(null,objs_5168)))
-{omegasq.add_to_scene.call(null,cljs.core.first.call(null,objs_5168));
+if(!(cljs.core.empty_QMARK_.call(null,objs_3208)))
+{omegasq.add_to_scene.call(null,cljs.core.first.call(null,objs_3208));
 {
-var G__5169 = cljs.core.rest.call(null,objs_5168);
-objs_5168 = G__5169;
+var G__3209 = cljs.core.rest.call(null,objs_3208);
+objs_3208 = G__3209;
 continue;
 }
 } else

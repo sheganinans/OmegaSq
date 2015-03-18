@@ -1,12 +1,14 @@
 (defproject omegasq "0.1.0-SNAPSHOT"
   :description "FIXME: write this!"
   :url "https://github.com/sheganinans?tab=repositories"
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [ring "1.1.8"]
-                 [jayq "2.3.0"]
-                 [prismatic/dommy "0.1.1"]]
-  :plugins [[lein-cljsbuild "0.3.0"]
-            [lein-ring "0.8.3" :exclusions [org.clojure/clojure]]]
+  :dependencies [[org.clojure/clojure "1.6.0"]
+                 [org.clojure/clojurescript "0.0-3123"]
+                 [ring "1.3.1"]
+                 [javax.servlet/servlet-api "2.5"]
+                 [jayq "2.5.4"]
+                 [prismatic/dommy "1.0.0"]]
+  :plugins [[lein-cljsbuild "1.0.5"]
+            [lein-ring "0.9.3" :exclusions [org.clojure/clojure]]]
   :hooks [leiningen.cljsbuild]
   :source-paths ["src/clj"]
   :cljsbuild {
